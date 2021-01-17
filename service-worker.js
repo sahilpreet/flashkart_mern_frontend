@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flashkart_mern_frontend/precache-manifest.3bf10216ce40da041e435e150a9bbe22.js"
+  "/flashkart_mern_frontend/precache-manifest.40f6d3767845a1cab32625cdfc405e67.js"
 );
 
 self.addEventListener('message', (event) => {
