@@ -1,5 +1,6 @@
 {
   "proxy": "https://sahil99155.pythonanywhere.com/",
+  "homepage": "https://sahilpreet.github.io/flashkart_mern_frontend",
   "name": "flashkart_mern_frontend",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
