@@ -1,0 +1,129 @@
+
+:root {
+    /* --primary-color:rgba(13,110,139,0.55); */
+    /* --primary-color: #00b4d8; */
+    --secondary-color: #ffffff;
+    --tertiary-color: black;
+    --forth-color: #FFEE0B;
+    --fifth-color: #fb5607;
+    --sixth-color: #dee2e6;
+    --overlay-color: rgba(24, 39, 51, 0.3);
+    --font-color: #011627;
+    --menu-speed: 0.75s;
+}
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*remove blue color on double click*/
+    /* user-select: none;   will not allow to select text to copy use carefully */
+    font-family: var(--font-display);
+}
+.main-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(#085078,#85D8CE);
+}
+.main-form .form-area{
+    border-radius: 10px;
+    background-color: var(--overlay-color);
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--secondary-color);
+    box-shadow: 2px 2px 3px var(--secondary-color);
+}
+.main-form .form-area .form-comp{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.main-form .form-area .form-comp .field{
+    margin: .3rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    /* flex-wrap: wrap; */
+    margin: 2% 0;
+}
+.main-form .form-area .form-comp .field .form-fields{
+    border-radius: 6px;
+    border:none;
+    padding: 1px .5rem;
+}
+.main-form .form-area .form-comp input{
+    font-size: 1.2rem;
+}
+.main-form .form-area .form-comp .btn-area{
+    margin: 1% 0;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.main-form .form-area .form-comp .btn{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    margin: 1%;
+    padding: .5rem .7rem;
+    font-size: 1.3rem;
+    border:2px solid var(--primary-color);
+    /* margin: auto; */
+}
+.main-form .form-area .form-comp .btn .btn-link{
+    text-decoration: none;
+
+}
+.main-form .form-area .form-comp .btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.main-form .form-area .error{
+    display: inline-block;
+    text-align: center;
+    margin: 1.5% 1%;
+    font-size: 1.4rem;
+    /* background-color: var(--primary-color); */
+    color: var(--secondary-color);
+}
+.main-form .form-area .error-by-user{
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}
+.main-form .form-area .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-form .form-area .links a{
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+}
+@media only screen and (max-width: 500px){
+    .main-form .form-area{
+        width: 100%;
+    }
+    .main-form .form-area .field{
+        flex-direction: column ;
+    }
+    .main-form .form-area .field input{
+        /* background-color: var(--forth-color); */
+        text-align: center;
+        width: 95%;
+        
+    }
+    .main-form .form-area .links,
+    .main-form .form-area .error{
+        width: 80vw;
+    }
+}
