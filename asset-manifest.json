@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/flashkart_mern_frontend/static/css/main.b5d5dfff.chunk.css",
-    "main.js": "/flashkart_mern_frontend/static/js/main.84f73cb1.chunk.js",
-    "main.js.map": "/flashkart_mern_frontend/static/js/main.84f73cb1.chunk.js.map",
+    "main.js": "/flashkart_mern_frontend/static/js/main.f3dc3798.chunk.js",
+    "main.js.map": "/flashkart_mern_frontend/static/js/main.f3dc3798.chunk.js.map",
     "runtime-main.js": "/flashkart_mern_frontend/static/js/runtime-main.2fc1f98b.js",
     "runtime-main.js.map": "/flashkart_mern_frontend/static/js/runtime-main.2fc1f98b.js.map",
     "static/js/2.2aefaa05.chunk.js": "/flashkart_mern_frontend/static/js/2.2aefaa05.chunk.js",
     "static/js/2.2aefaa05.chunk.js.map": "/flashkart_mern_frontend/static/js/2.2aefaa05.chunk.js.map",
     "index.html": "/flashkart_mern_frontend/index.html",
-    "precache-manifest.162389684f3e520a293e7850e73053c9.js": "/flashkart_mern_frontend/precache-manifest.162389684f3e520a293e7850e73053c9.js",
+    "precache-manifest.3bf10216ce40da041e435e150a9bbe22.js": "/flashkart_mern_frontend/precache-manifest.3bf10216ce40da041e435e150a9bbe22.js",
     "service-worker.js": "/flashkart_mern_frontend/service-worker.js",
     "static/css/main.b5d5dfff.chunk.css.map": "/flashkart_mern_frontend/static/css/main.b5d5dfff.chunk.css.map",
     "static/js/2.2aefaa05.chunk.js.LICENSE.txt": "/flashkart_mern_frontend/static/js/2.2aefaa05.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2fc1f98b.js",
     "static/js/2.2aefaa05.chunk.js",
     "static/css/main.b5d5dfff.chunk.css",
-    "static/js/main.84f73cb1.chunk.js"
+    "static/js/main.f3dc3798.chunk.js"
   ]
 }

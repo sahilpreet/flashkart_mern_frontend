@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a305d7244b131062ae16bfabab10d94",
+    "revision": "ddca25b3052b2a52875f60617225d2d5",
     "url": "/flashkart_mern_frontend/index.html"
   },
   {
-    "revision": "b3e9ec9bc3be43e6d224",
+    "revision": "06862956d4f0b3ac2881",
     "url": "/flashkart_mern_frontend/static/css/main.b5d5dfff.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flashkart_mern_frontend/static/js/2.2aefaa05.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3e9ec9bc3be43e6d224",
-    "url": "/flashkart_mern_frontend/static/js/main.84f73cb1.chunk.js"
+    "revision": "06862956d4f0b3ac2881",
+    "url": "/flashkart_mern_frontend/static/js/main.f3dc3798.chunk.js"
   },
   {
     "revision": "df94213f9c810703a5b6",
